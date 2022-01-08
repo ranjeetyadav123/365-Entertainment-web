@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>365 Entertainment</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="NavBar">
+          <a class="links" href="./index.html">
+            <img class="logo" src="headlogo.jpeg" alt="alt" />
+          </a>
+          <a class="links text" href="./movies.html">Movies</a>
+          <a class="links text" href="#">Tv Series</a>
+          <a class="links text" href="#">Audio</a>
+        </div>
+      </header>
+      <div class="content">
+        <div class="crousel">
+          <div class="slides-container">
+            <div class="slid slides1" style="display: block">
+              <img
+                src="https://internship.suvenconsultants.com/projects/365webproject/365mov/abc1.jpg"
+                alt=""
+              />
+            </div>
+            <div class="slid slides2" style="display: none">
+              <img
+                src="https://internship.suvenconsultants.com/projects/365webproject/365mov/abc2.jpg"
+                alt=""
+              />
+            </div>
+            <div class="slid slides3" style="display: none">
+              <img
+                src="https://internship.suvenconsultants.com/projects/365webproject/365mov/abc3.jpg"
+                alt=""
+              />
+            </div>
+            <div class="slid slides4" style="display: none">
+              <img
+                src="https://internship.suvenconsultants.com/projects/365webproject/365mov/abc4.jpg"
+                alt=""
+              />
+            </div>
+            <div class="slid slides5" style="display: none">
+              <img
+                src="https://internship.suvenconsultants.com/projects/365webproject/365mov/abc5.jpg"
+                alt=""
+              />
+            </div>
+            <a class="prev"> < </a>
+            <a class="next">></a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <div id="dropdown-content">
+            <select id="dropdown-select" onchange="selection()">
+              <option disabled selected>Genre</option>  
+              <option>All</option>
+              <option>Action</option>
+              <option>Drama</option>
+              <option>Sci-Fi</option>
+            </select>
+          </div>
+        </div>
+        <div class="search-container">
+            <input
+              type="text"
+              id="search"
+              onkeyup="searching()"
+              placeholder="Search your favourite movie title....."
+              name="search"
+            />
+        </div>
+        <div id="media-carousel-container">
+          <div id="media-holder-action">
+            <div class="image-container-action">
+              <div class="movies-action">
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano1.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Haider</b><br />Indian crime tragedy
+                    film.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano2.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Dream 2</b><br />Thriller, Mystery
+                    &amp; Comedy
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano3.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Batman</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano4.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Monster Manav</b><br />Japanese manga
+                    series written by Tsugumi.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano5.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Kill Bill</b><br />2003 American
+                    martial arts film.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano6.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Rowdy</b><br />Indian action drama
+                    film.
+                  </div>
+                </div>
+              </div>
+
+              <div class="movies-drama">
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano34.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Agnipaath</b><br />Indian crime
+                    tragedy film.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano7.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Ankhein</b><br />Thriller, Mystery
+                    &amp; Comedy .
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano8.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Guide</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano9.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Deewar</b><br />2016 ‧
+                    Fantasy/Science Fiction.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano10.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Sholay</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano11.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">K3G</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano12.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Shaurya</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano13.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Cheeni Kam</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano14.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Ishq Vishq</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano15.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Padmaavat</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano16.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Kai Po Che</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano17.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Raabta</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+              </div>
+
+              <div class="movies-sci-fi">
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano18.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Interstellar</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano19.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Star Wars</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano20.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Thor</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano21.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Captain America</b><br />A Marvel
+                    Comics superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano22.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">X-Men</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano23.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Black Widow</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano24.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Iron-Man</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano25.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Hulk</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano26.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Captain Marvel</b><br />A Marvel
+                    Comics superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano27.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Wonder Woman</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano28.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Batwoman</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano29.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Batman</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano30.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Superman</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano31.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Superwoman</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano32.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Doctor Strange</b><br />A Marvel
+                    Comics superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano33.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Mars</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano35.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Gravity</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+                <div class="media-content">
+                  <img
+                    src="https://internship.suvenconsultants.com/projects/365webproject/365mov/nano36.jpg"
+                    alt="media carousel"
+                    width="200"
+                    height="200"
+                  />
+                  <div class="overlay">
+                    <b class="movie-title">Martian</b><br />A Marvel Comics
+                    superhero team.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--<div id="no-results">No Results Found.</div>-->
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="copyright">
+        <a class="links" href="index.html">
+          <img class="logo" alt="logo" src="headlogo.jpeg" />
+        </a>
+        <div class="text">
+          Powerd by 365 Entertainment Portal 2021. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
